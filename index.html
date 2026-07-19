@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>何生 · 软件工程师</title>
+    <meta
+      name="description"
+      content="何生的个人网站 —— 专注前端工程、系统构建与可维护代码的软件工程师。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@500;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="何生首页">何生</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">作品</a>
+        <a href="#notes">笔记</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="首页">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=2400&q=80"
+            alt=""
+            width="2400"
+            height="1600"
+          />
+          <div class="hero-shade"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="brand">何生</p>
+          <h1>用清晰的代码，搭可靠的系统。</h1>
+          <p class="lede">
+            软件工程师 · 关注前端体验、工程化与长期可维护的产品交付。
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#work">查看作品</a>
+            <a class="btn btn-ghost" href="#contact">与我联系</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-inner">
+          <p class="eyebrow">About</p>
+          <h2>把复杂问题拆成可落地的工程路径。</h2>
+          <p class="section-copy">
+            我做网站与产品界面，也关心背后的架构取舍：组件边界、状态流动、构建管线、性能预算。
+            喜欢把模糊需求写成可验证的接口与节奏分明的迭代。
+          </p>
+          <ul class="traits">
+            <li><span>01</span>接口先行，边界清晰</li>
+            <li><span>02</span>可读性优先于炫技</li>
+            <li><span>03</span>交付可观测、可回滚</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="stack" class="section stack">
+        <div class="section-inner">
+          <p class="eyebrow">Stack</p>
+          <h2>日常使用的工具链</h2>
+          <p class="section-copy">偏向前端与全栈协作，按项目选择合适深度。</p>
+          <div class="stack-grid" role="list">
+            <div role="listitem"><code>TypeScript</code><span>类型驱动建模</span></div>
+            <div role="listitem"><code>React / Vue</code><span>组件与交互</span></div>
+            <div role="listitem"><code>Node.js</code><span>API 与工具脚本</span></div>
+            <div role="listitem"><code>Vite / Next</code><span>构建与路由</span></div>
+            <div role="listitem"><code>Git / CI</code><span>协作与发布</span></div>
+            <div role="listitem"><code>CSS / Design</code><span>排版与动效</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section work">
+        <div class="section-inner">
+          <p class="eyebrow">Selected Work</p>
+          <h2>近期关注的方向</h2>
+          <p class="section-copy">示例项目方向，可替换为你的真实仓库与线上产品。</p>
+
+          <ul class="project-list">
+            <li>
+              <a href="https://github.com/hesheng516" target="_blank" rel="noopener noreferrer">
+                <div class="project-meta">
+                  <span class="project-index">01</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3>个人工程博客</h3>
+                <p>记录架构笔记、调试路径与可复用的前端模式。</p>
+                <span class="project-link">GitHub 主页 →</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/hesheng516/blog" target="_blank" rel="noopener noreferrer">
+                <div class="project-meta">
+                  <span class="project-index">02</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3>开发者作品集站点</h3>
+                <p>静态站点 + GitHub Pages，强调品牌识别与首屏叙事。</p>
+                <span class="project-link">本仓库 →</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <div class="project-meta">
+                  <span class="project-index">03</span>
+                  <span class="project-year">Next</span>
+                </div>
+                <h3>下一个产品原型</h3>
+                <p>欢迎合作：工具型 Web App、仪表盘或内容型站点。</p>
+                <span class="project-link">聊聊想法 →</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="notes" class="section notes">
+        <div class="section-inner">
+          <p class="eyebrow">Notes</p>
+          <h2>正在写的东西</h2>
+          <p class="section-copy">短笔记，偏工程实践，不写空话。</p>
+          <ul class="note-list">
+            <li>
+              <time datetime="2026-07">2026.07</time>
+              <p>首屏只做一件事：品牌、一句主张、一个行动。</p>
+            </li>
+            <li>
+              <time datetime="2026-06">2026.06</time>
+              <p>把「感觉卡」写成可度量的性能预算，再动手优化。</p>
+            </li>
+            <li>
+              <time datetime="2026-05">2026.05</time>
+              <p>CI 不是仪式：它是团队对「可合并」的共同定义。</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-inner">
+          <p class="eyebrow">Contact</p>
+          <h2>有想法？直接说。</h2>
+          <p class="section-copy">适合：前端协作、产品原型、技术咨询与开源交流。</p>
+          <div class="contact-rows">
+            <a href="mailto:hs878585447@gmail.com">hs878585447@gmail.com</a>
+            <a href="https://github.com/hesheng516" target="_blank" rel="noopener noreferrer"
+              >github.com/hesheng516</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 何生 · Built with care</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
